@@ -1,0 +1,13 @@
+com.xilinx.sdk.linkgen.prefs.p2\:.bss=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.p2\:.data=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.p2\:.rodata=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.p2\:.sbss=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.p2\:.sbss2=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.p2\:.sdata=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.p2\:.sdata2=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.p2\:.text=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.p2\:heap=mig_7series_0_memaddr
+com.xilinx.sdk.linkgen.prefs.p2\:heap-size=32768
+com.xilinx.sdk.linkgen.prefs.p2\:stack=mig_7series_0_memaddr
+com.xilinx.sdk.linkgen.prefs.p2\:stack-size=32768
+eclipse.preferences.version=1

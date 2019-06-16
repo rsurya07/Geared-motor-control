@@ -1,0 +1,31 @@
+15:30:30 **** Incremental Build of configuration Debug for project p2 ****
+make all 
+'Building file: ../FreeRTOS_Example.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"FreeRTOS_Example.o" -I../../freertos10_xilinx_bsp_0/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"FreeRTOS_Example.d" -MT"FreeRTOS_Example.o" -o "FreeRTOS_Example.o" "../FreeRTOS_Example.c"
+../FreeRTOS_Example.c: In function 'sem_taken_que_tx':
+../FreeRTOS_Example.c:164:25: warning: unused variable 'last_rpm' [-Wunused-variable]
+  volatile u32 read_rpm, last_rpm;
+                         ^~~~~~~~
+../FreeRTOS_Example.c:138:17: warning: unused variable 'lastticks' [-Wunused-variable]
+  int ticks = 0, lastticks = 1;
+                 ^~~~~~~~~
+../FreeRTOS_Example.c:138:6: warning: unused variable 'ticks' [-Wunused-variable]
+  int ticks = 0, lastticks = 1;
+      ^~~~~
+'Finished building: ../FreeRTOS_Example.c'
+' '
+'Building target: p2.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../freertos10_xilinx_bsp_0/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "p2.elf"  ./FreeRTOS_Example.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+'Finished building target: p2.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size p2.elf  |tee "p2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  54456	   1520	 132532	 188508	  2e05c	p2.elf
+'Finished building: p2.elf.size'
+' '
+
+15:30:32 Build Finished (took 1s.684ms)
+
